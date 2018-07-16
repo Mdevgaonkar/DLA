@@ -687,6 +687,18 @@ section
 	-o-transform: translateY(30px);
 	transform: translateY(30px);
 }
+.hero_slide_content-brand
+{
+	/* Rectangle 8: */
+	width: 55%;
+	height: 220px;
+background: rgba(147,191,242,0.33);
+margin: 22.5%;
+/* border: 4px solid #FFFFFF; */
+/* background-image:url(images/brand-01.png); */
+padding: 60px 30px 40px 30px;
+
+}
 .hero_slide_content h1
 {
 	font-size: 72px;

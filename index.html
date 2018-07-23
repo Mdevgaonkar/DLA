@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Course Project">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -19,7 +20,8 @@
 <body>
 
 	<div class="super_container">
-
+		<!-- Back to top button -->
+		<button onclick="topFunction()" id="back_to_top_btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 		<!-- Header -->
 
 		<header class="header d-flex flex-row">
@@ -132,8 +134,6 @@
 							</li>
 						</ul>
 					</div>
-
-					<div class="menu_copyright menu_mm">Colorlib All rights reserved</div>
 				</div>
 
 			</div>
@@ -149,72 +149,74 @@
 				<div class="hero_slider owl-carousel">
 
 					<!-- Hero Slide -->
-					<!-- <div class="hero_slide">
+					<div class="hero_slide">
 						<div class="hero_slide_background" style="background-image:url(images/slider_background_01.jpg)"></div>
 						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-							<div class="hero_slide_content text-center">
+
+							<div class="hero_slide_content text-center" data-animation-out="fadeOut" >
+								<!-- <img src="images/brand-01.png" alt="DLA"> -->
 								<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
-									<span>DATA LAKE ACADEMY</span>
-								</h1>
+												<span>DATA LAKE ACADEMY</span>
+											</h1>
 							</div>
-						</div>
-					</div> -->
 
-					<!-- Hero Slide -->
-					<div class="hero_slide">
-						<div class="hero_slide_background" style="background-image:url(images/promo-bg-2.jpg)"></div>
-						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-							<div class="hero_slide_content text-center">
-								<div class="row">
-									<div class="hero_slide_content-brand"  data-animation-in="fadeInUp"  data-animation-out="animate-out fadeOut">
-										<img src="images/brand-01.png" alt="DLA">
-										
-										<!-- <h1 >
-											<span>DATA LAKE ACADEMY</span>
-										</h1> -->
-									</div>
-									<!-- <div class="col-md-12 col-lg-6">
-										<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
-											<span>DATA LAKE ACADEMY</span>
-										</h1>
-									</div> -->
-								</div>
-							</div>
 						</div>
 					</div>
 
-					<!-- Hero Slide -->
-					<!-- <div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
-					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
-						</div>
-					</div>
-				</div> -->
 
-					<!-- Hero Slide -->
-					<!-- <div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
-					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
-						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
-						</div>
-					</div>
-				</div> -->
+					
 
 				</div>
 
-				<div class="hero_slider_left hero_slider_nav trans_200">
+				<!-- <div class="hero_slider_left hero_slider_nav trans_200">
 					<span class="trans_200">prev</span>
 				</div>
 				<div class="hero_slider_right hero_slider_nav trans_200">
 					<span class="trans_200">next</span>
-				</div>
+				</div> -->
 			</div>
 
 		</div>
 
+		<div class="hero_boxes">
+				<div class="hero_boxes_inner">
+					<div class="container">
+						<div class="row">
+		
+							<div class="col-lg-4 hero_box_col">
+								<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+									<img src="images/hdp.png" alt="Hadoop logo">
+									<div class="hero_box_content">
+										<h2 class="hero_box_title">HDP (Hortonworks)</h2>
+										<a href="courses.html" class="hero_box_link">view more</a>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-4 hero_box_col">
+								<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+									<img src="images/cloudera.png" class="svg" alt="">
+									<div class="hero_box_content">
+										<h2 class="hero_box_title">Cloudera</h2>
+										<a href="courses.html" class="hero_box_link">view more</a>
+									</div>
+								</div>
+							</div>
+		
+							<div class="col-lg-4 hero_box_col">
+								<div class="hero_box d-flex flex-row align-items-center justify-content-start">
+									<img src="images/apachesparklogo.png" alt="Spark logo">
+									<div class="hero_box_content">
+										<h2 class="hero_box_title">Spark</h2>
+										<a href="teachers.html" class="hero_box_link">view more</a>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+			</div>
 
 		<!-- Services -->
 

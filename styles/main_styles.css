@@ -680,7 +680,9 @@ section
 }
 .hero_slide_content
 {
-	max-width: 80%;
+	width: 100%;
+	/* background: #D8875154; */
+	background: #4a86cb54;
 	-webkit-transform: translateY(30px);
 	-moz-transform: translateY(30px);
 	-ms-transform: translateY(30px);
@@ -690,9 +692,10 @@ section
 .hero_slide_content-brand
 {
 	/* Rectangle 8: */
-	width: 55%;
+	width: 100%;
 	height: 220px;
-background: rgba(147,191,242,0.33);
+	
+background: #91bef254;
 margin: 22.5%;
 /* border: 4px solid #FFFFFF; */
 /* background-image:url(images/brand-01.png); */
@@ -701,18 +704,18 @@ padding: 60px 30px 40px 30px;
 }
 .hero_slide_content h1
 {
-	font-size: 72px;
+	font-size: 6rem;
 	font-weight: 400;
 	color: #FFFFFF;
 }
-.hero_slide_content h1 span
+/* .hero_slide_content h1 span
 {
-	background: #4a86cb88;
+	
 	padding-left: 13px;
 	padding-right: 13px;
 	margin-left: -12px;
-	margin-right: -12px;
-}
+	margin-right: -12px; 
+} */
 .animated
 {
 	-webkit-animation-duration : 1s !important;
@@ -801,19 +804,21 @@ padding: 60px 30px 40px 30px;
 {
 	width: 100%;
 	height: 161px;
-	background: #1a1a1a;
-	padding-left: 50px;
+	/* background: #0a0a0a; */
+	background: #4A86CB;
+	padding-left: 5px;
 	cursor: pointer;
+	
 }
-.hero_box:hover
+/* .hero_box:hover
 {
 	background: #4A86CB;
-}
+} */
 .hero_box img
 {
-	width: 62px;
+	width: 162px;
 	height: auto;
-	margin-top: -6px;
+	margin-top: 6px;
 }
 .svg path
 {
@@ -824,10 +829,10 @@ padding: 60px 30px 40px 30px;
 	width: 62px;
 	height: auto;
 }
-.hero_box:hover svg path
+/* .hero_box:hover svg path
 {
 	fill: #FFFFFF;
-}
+} */
 .hero_box_content
 {
 	padding-left: 13px;
@@ -839,6 +844,7 @@ padding: 60px 30px 40px 30px;
 	font-size: 24px;
 	font-weight: 500;
 	color: #FFFFFF;
+	/* color: #1a1a1a; */
 	margin-bottom: 7px;
 }
 .hero_box_link
@@ -847,6 +853,7 @@ padding: 60px 30px 40px 30px;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	/* color: #1a1a1a; */
 	padding-left: 3px;
 }
 .hero_box_link:hover
@@ -1607,3 +1614,21 @@ input:last-of-type
 {
 	margin-right: 0px;
 }
+
+/*********************************************/
+/* Back to top Button*/
+#back_to_top_btn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #ececec;
+	color: #4A86CB;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+  }

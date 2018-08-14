@@ -45,7 +45,8 @@ $(document).ready(function () {
 	initHamburger();
 	initTestimonialsSlider();
 	// initParallax();
-	initAccordions();
+	initAccordions('accordion');
+	initAccordions('course_accordions');
 	window.onscroll = function() {scrollFunction()};
 
 	/* 
@@ -292,10 +293,9 @@ $(document).ready(function () {
 	8. Init Accordions
 
 	*/
-
-function initAccordions() {
-	if ($('.accordion').length) {
-		var accs = $('.accordion');
+function initAccordions(class_name) {
+	if ($('.'+class_name).length) {
+		var accs = $('.'+class_name);
 
 		accs.each(function () {
 			var acc = $(this);
@@ -319,7 +319,7 @@ function initAccordions() {
 
 /* 
 
-	8. Init Accordions
+	8. Init Accordions ends
 
 */
 

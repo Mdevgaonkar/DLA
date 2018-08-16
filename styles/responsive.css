@@ -157,8 +157,8 @@
 		margin-bottom: 0px;
 	}
 	.search_section {
-		padding-top: 156px;
-		padding-bottom: 161px;
+		/* padding-top: 156px; */
+		padding-bottom: 20px;
 	}
 	.register_content,
 	.search_content {
@@ -295,8 +295,8 @@
 	}
 	.register_section,
 	.search_section {
-		padding-top: 115px;
-		padding-bottom: 120px;
+		/* padding-top: 15px; */
+		padding-bottom: 15px;
 	}
 	.register_content,
 	.search_content {

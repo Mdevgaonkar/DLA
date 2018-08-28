@@ -1304,6 +1304,53 @@ input:last-of-type
 	background: #4A86CB !important;
 }
 
+/********************************
+Logo Sliders
+*********************************/
+
+.logo_item
+{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.logo_image
+{
+	padding: 3rem;
+	width: auto;
+	height: auto;
+	/* border-radius: 50%; */
+	overflow: hidden;
+}
+.logo_image img
+{
+	width: 100%;
+	height: auto;
+}
+.logo_slider .owl-dots
+{
+	display: -webkit-box !important;
+	display: -moz-box !important;
+	display: -ms-flexbox !important;
+	display: -webkit-flex !important;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center;
+	align-items: center;
+}
+.logo_slider .owl-dot span
+{
+	width: 8px !important;
+	height: 8px !important;
+	border: solid 2px #FFFFFF;
+	background: transparent !important;
+}
+.logo_slider .owl-dot.active span
+{
+	width: 16px !important;
+	height: 16px !important;
+	border: none;
+	background: #4A86CB !important;
+}
 
 /********************************
 COURSES
@@ -1756,7 +1803,7 @@ COURSES
   }
   
   .timeline__box:not(:last-of-type){
-	margin-bottom: 30px;
+	margin-bottom: 1rem;
   }
   
   .timeline__box:before{
@@ -1793,7 +1840,7 @@ COURSES
   }
   
   .timeline__post{
-	padding: 1.5rem 2rem;
+	padding: 0.5rem 0.5rem;
 	border-radius: 2px;
 	border-left: 3px solid var(--uiTimelineMainColor);
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);

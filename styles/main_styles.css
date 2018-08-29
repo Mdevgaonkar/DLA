@@ -1804,6 +1804,7 @@ COURSES
   
   .timeline__box:not(:last-of-type){
 	margin-bottom: 1rem;
+	margin-right: 10px;
   }
   
   .timeline__box:before{
@@ -1859,6 +1860,8 @@ COURSES
   
 	.timeline__box{
 	  padding-left: 80px;
+	  margin-bottom: 1rem;
+	  margin-right: 10px;
 	}
   
 	.timeline__box:before{
